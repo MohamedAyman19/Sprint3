@@ -9,12 +9,10 @@
 
 uint8_t counter;
 uint8_t data[6];
-uint8_t check[12];
 void System_Init()
 {
 	SPI_vdInit();
 	UART_vdInit();
-	DIO_setPortDirection(PortA,OUTPUT);
 	
 
 }
