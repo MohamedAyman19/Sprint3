@@ -13,7 +13,6 @@ void System_Init()
 {
 	SPI_vdInit();
 	UART_vdInit();
-	DIO_setPortDirection(PortA,OUTPUT);
 	
 
 }
